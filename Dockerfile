@@ -30,4 +30,4 @@ RUN strip /usr/local/bin/digibyted /usr/local/bin/digibyte-cli
 
 EXPOSE 12024 14022 28332 28333
 
-CMD ["digibyted", "-printtoconsole"]
+CMD ["/usr/local/bin/digibyted", "-printtoconsole"]
